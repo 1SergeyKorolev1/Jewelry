@@ -17,14 +17,14 @@ header {
 header,
 footer {
   /* ниже используется код с сайта colorzilla : https://www.colorzilla.com/gradient-editor/ */
-  background: url(./images/pattern.png), var(--color3);
-  background: url(./images/pattern.png),
+  background: url(../images/pattern.png), var(--color3);
+  background: url(../images/pattern.png),
     -moz-linear-gradient(left, var(--color3) 0%, var(--color4) 100%);
-  background: url(./images/pattern.png),
+  background: url(../images/pattern.png),
     -webkit-linear-gradient(left, var(--color3) 0%, var(--color4) 100%);
-  background: url(./images/pattern.png),
+  background: url(../images/pattern.png),
     linear-gradient(to right, var(--color3) 0%, var(--color4) 100%);
-  filter: url(./images/pattern.png),
+  filter: url(../images/pattern.png),
     progid:
       DXImageTransform.Microsoft.gradient(
         startColorstr= "#fcff6b",
