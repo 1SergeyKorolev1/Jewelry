@@ -15,8 +15,12 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center">Jewelry Рыбинск</h1>
-            <div class="itd_play">
+            <h1 class="text-center text-white">Jewelry Рыбинск</h1>
+            <div
+              class="itd_play"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               <div class="itd_triangle"></div>
             </div>
             <a href="#footer" class="btn btn-itd btn-lg text-uppercase"
@@ -35,6 +39,56 @@
       </div>
     </section>
     <footer id="footer"></footer>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              📫 Наши контакты:
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Пока сдесь рандомный текст: Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Rerum quos atque, facilis deserunt ex, quidem
+              esse inventore assumenda ea sint mollitia tempora odit perferendis
+              eum. Officiis corporis eligendi dolor assumenda quibusdam neque
+              laudantium fugit eius provident voluptatum unde adipisci numquam,
+              saepe magni cupiditate suscipit error distinctio culpa soluta in
+              veritatis? Voluptas sed distinctio accusantium aspernatur iusto
+              debitis nulla similique dolorem voluptates, minima molestias
+              corrupti harum perferendis dolores reiciendis, inventore quasi
+              ipsum delectus odio ducimus animi consectetur vitae quis corporis!
+              Repudiandae id rem laboriosam corporis perspiciatis iusto
+              voluptas, laborum aut quod enim ex vero omnis, qui iure, ullam
+              distinctio consequatur amet.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <!-- <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/bootstrapJs/bootstrap.bundle.min.js"></script>
   </body>
 </html>
