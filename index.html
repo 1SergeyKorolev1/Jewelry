@@ -187,40 +187,45 @@
             />
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 form-calculator">
-            <input
-              type="text"
-              class="form-control margin-input"
-              id="exampleFormControlInput1"
-              placeholder="Вес изделия в граммах"
-            />
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <form class="form-calculator">
-              <select
-                class="form-select margin-input"
-                aria-label="Default select example"
-              >
-                <option selected>Вид изделия</option>
-                <option value="1">Кльцо</option>
-                <option value="2">Цепочка</option>
-                <option value="3">Другое</option>
-              </select>
-              <select
-                class="form-select margin-input"
-                aria-label="Default select example"
-              >
-                <option selected>Материал изделия</option>
-                <option value="1">Золото</option>
-                <option value="2">Серебро</option>
-              </select>
-            </form>
-          </div>
-        </div>
+
+        <form class="form-calculator">
+          <input
+            type="text"
+            class="form-control margin-input"
+            id="exampleFormControlInput1"
+            placeholder="Вес изделия в граммах"
+          />
+
+          <select
+            class="form-select margin-input"
+            aria-label="Default select example"
+          >
+            <option selected>Вид изделия</option>
+            <option value="1">Кльцо</option>
+            <option value="2">Цепочка</option>
+            <option value="3">Другое</option>
+          </select>
+          <select
+            class="form-select margin-input"
+            aria-label="Default select example"
+          >
+            <option selected>Материал изделия</option>
+            <option value="1">Золото</option>
+            <option value="2">Серебро</option>
+          </select>
+        </form>
       </div>
     </section>
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <div class="row">
+        <div class="coll-12">
+          <p class="footer-date text-center"></p>
+        </div>
+        <div class="coll-12">
+          <p class="text-center">&copy;</p>
+        </div>
+      </div>
+    </footer>
     <div
       class="modal fade"
       id="contacts"
@@ -272,5 +277,6 @@
       </div>
     </div>
     <script src="./bootstrapJs/bootstrap.bundle.min.js"></script>
+    <script src="./pages/index.js"></script>
   </body>
 </html>

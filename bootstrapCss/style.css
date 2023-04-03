@@ -5,13 +5,16 @@
   --color4: #ff7f04;
 }
 
-footer,
 section {
   padding: 100px 0;
 }
 
+footer {
+  padding: 20px 0;
+}
+
 header {
-  padding: 200px 0;
+  padding: 110px 0;
 }
 
 header,
