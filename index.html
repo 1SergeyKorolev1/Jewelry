@@ -166,7 +166,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <section class="about">
+    <!-- <section class="about">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -174,11 +174,49 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section>
       <div class="row">
         <div class="coll-12">
-          <h2 class="text-center">Будующий калькулятор</h2>
+          <h2 class="text-center">Подсчет стоимости изделия</h2>
+          <div class="row">
+            <img
+              src="./images/calculate.png"
+              alt="калькулятор"
+              class="image-calculate"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-calculator">
+            <input
+              type="text"
+              class="form-control margin-input"
+              id="exampleFormControlInput1"
+              placeholder="Вес изделия в граммах"
+            />
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <form class="form-calculator">
+              <select
+                class="form-select margin-input"
+                aria-label="Default select example"
+              >
+                <option selected>Вид изделия</option>
+                <option value="1">Кльцо</option>
+                <option value="2">Цепочка</option>
+                <option value="3">Другое</option>
+              </select>
+              <select
+                class="form-select margin-input"
+                aria-label="Default select example"
+              >
+                <option selected>Материал изделия</option>
+                <option value="1">Золото</option>
+                <option value="2">Серебро</option>
+              </select>
+            </form>
+          </div>
         </div>
       </div>
     </section>
