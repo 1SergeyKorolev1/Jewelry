@@ -37,7 +37,7 @@ footer {
   background-size: contain;
 }
 
-.itd_play {
+.jewelry_play {
   /* background-color: var(--color4); */
   width: 60px;
   height: 60px;
@@ -51,12 +51,12 @@ footer {
   transition: all 1s ease;
 }
 
-.itd_play:hover {
+.jewelry_play:hover {
   background-color: var(--color3);
   rotate: 360deg;
 }
 
-.itd_triangle {
+.jewelry_triangle {
   width: 30px;
   height: 30px;
   background-image: url(../images/kontacts.svg);
@@ -72,7 +72,7 @@ footer {
   border-color: transparent transparent transparent var(--bs-white); */
 }
 
-.btn-itd {
+.btn-jewelry {
   display: block;
   max-width: 200px;
   margin: 0 auto;
