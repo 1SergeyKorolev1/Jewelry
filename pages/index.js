@@ -4,6 +4,7 @@ const inputProblem = document.querySelector(".input-problem");
 const inputType = document.querySelector(".input-type");
 const inputWeight = document.querySelector(".input-weight");
 const inputMaterial = document.querySelector(".input-material");
+const inputItemDescription = document.querySelector(".input-item-description");
 
 function newData() {
   return new Date().getFullYear();
@@ -48,6 +49,14 @@ function choiceProduct(evt) {
   } else {
     inputWeight.classList.add("input-disable");
     inputMaterial.classList.add("input-disable");
+  }
+
+  if (Number(evt.target.value) === 5) {
+    inputItemDescription.classList.remove("input-disable");
+    inputWeight.classList.remove("input-disable");
+    inputMaterial.classList.remove("input-disable");
+  } else {
+    inputItemDescription.classList.add("input-disable");
   }
 }
 
