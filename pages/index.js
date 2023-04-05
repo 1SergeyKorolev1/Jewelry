@@ -25,6 +25,7 @@ function choiceWork(evt) {
     inputMaterial.value = "Материал изделия";
     inputType.value = "Вид изделия";
     inputItemDescription.classList.add("input-disable");
+    inputFileExample.classList.add("input-disable");
   }
 
   if (Number(evt.target.value) === 1 || Number(evt.target.value) === 3) {
