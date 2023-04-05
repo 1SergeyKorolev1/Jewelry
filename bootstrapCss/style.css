@@ -81,3 +81,13 @@ footer {
   background-color: var(--color4);
   transition: all 1s ease;
 }
+
+.submit-button {
+  display: block;
+  max-width: 160px;
+  margin: 0 auto;
+  padding: 8px, 30px;
+  color: var(--color3);
+  background-color: var(--color4);
+  transition: all 1s ease;
+}

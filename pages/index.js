@@ -7,6 +7,10 @@ const inputMaterial = document.querySelector(".input-material");
 const inputItemDescription = document.querySelector(".input-item-description");
 const inputFileRepair = document.querySelector(".input-file-repair");
 const inputFileExample = document.querySelector(".input-file-example");
+const submitButton = document.querySelector(".submit-button");
+const elementCost = document.querySelector(".container-otvet").content;
+const productCost = document.querySelector(".productCost");
+const containerOtveta = document.querySelector(".elements");
 
 function newData() {
   return new Date().getFullYear();
@@ -69,5 +73,12 @@ function choiceProduct(evt) {
   }
 }
 
+function onClickSubmitButton(evt) {
+  evt.preventDefault();
+  // containerOtveta.prepend(createNameOtvet());
+  alert("Калькулятор еще не работает...( Ведется разработка...");
+}
+
 inputWork.addEventListener("input", choiceWork);
 inputType.addEventListener("input", choiceProduct);
+submitButton.addEventListener("click", onClickSubmitButton);
