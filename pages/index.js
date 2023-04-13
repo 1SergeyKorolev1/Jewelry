@@ -1,16 +1,18 @@
 const footerDate = document.querySelector(".footer-date");
 const inputWork = document.querySelector(".input-work");
 const inputProblem = document.querySelector(".input-problem");
+const inputProblemText = document.querySelector(".input-problem-text");
 const inputType = document.querySelector(".input-type");
 const inputWeight = document.querySelector(".input-weight");
 const inputMaterial = document.querySelector(".input-material");
 const inputItemDescription = document.querySelector(".input-item-description");
 const inputFileRepair = document.querySelector(".input-file-repair");
+const textDownloadFile = document.querySelector("text-download-file");
 const inputFileExample = document.querySelector(".input-file-example");
 const submitButton = document.querySelector(".submit-button");
-const elementCost = document.querySelector(".container-otvet").content;
-const productCost = document.querySelector(".productCost");
-const containerOtveta = document.querySelector(".elements");
+// const elementCost = document.querySelector(".container-otvet").content;
+// const productCost = document.querySelector(".productCost");
+// const containerOtveta = document.querySelector(".elements");
 
 function newData() {
   return new Date().getFullYear();
@@ -76,6 +78,9 @@ function choiceProduct(evt) {
 function onClickSubmitButton(evt) {
   evt.preventDefault();
   // containerOtveta.prepend(createNameOtvet());
+  console.log(inputWork.value);
+  console.log(inputProblemText.value);
+  console.log(textDownloadFile.files);
   alert("Калькулятор еще не работает...( Ведется разработка...");
 }
 
